@@ -1,0 +1,73 @@
+a {
+    text-decoration: None;
+}
+
+.resetBox{
+    max-width: 360px;
+    min-width: 300px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 30vh;
+    background-color: #fff;
+    border: 1px solid rgb(188, 188, 188);
+    padding: 30px 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.logo > img{
+    width: 200px;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(140, 140, 140);
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+button {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #b2dffc;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.clickable {
+    background-color: #0095f6
+}
+
+.forgot-password {
+    padding-top: 20px;
+}
+
+.SingUp-box {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-password {
+    display: none;
+}
+
+
+
+
+
+
+
